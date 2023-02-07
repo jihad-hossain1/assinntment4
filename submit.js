@@ -6,13 +6,14 @@ function mindGame(myNumber){
     sum = sum - 5 ;
     return sum;
 }
+/* Function Discription: 
+This is a Arithmetic operators function. 
+it's perform arithmetic on numbers (literals or variables).
+*/
 
-// let finalResult = mindGame(50);
-// console.log(finalResult);
 
 
-
-// problem no 2
+// problem 2
 function evenOdd(myString){
 
     if(myString.length % 2 == 0){
@@ -20,15 +21,17 @@ function evenOdd(myString){
     }
     else{
         return 'odd';
-    }
-    
+    }    
 }
+/* Function Discription: 
+This function are Conditional Statements .
+The if & else statement executes a statement if a specified condition is truthy. 
+If the condition is falsy, another statement in the optional else clause will be executed . 
+*/
 
-// let finalResult = evenOdd('phero batch7');
-// console.log(finalResult);
 
 
-// problem no 3
+// problem  3
 function isLGSeven(myNumber){
     let sum = myNumber - 7;
     if(sum < 7){
@@ -38,12 +41,13 @@ function isLGSeven(myNumber){
         return myNumber * 2;
     }    
 }
+/* Function Discription: 
+This function are Conditional Statements .
+Use the else if statement to specify a new condition if the first condition is false.
+*/
 
-// let finalResult = isLGSeven(-15);
-// console.log(finalResult);
 
-
-// problem 4
+// problem  4
 function findingBadData(numbers){
     let count = 0;
 
@@ -56,9 +60,11 @@ function findingBadData(numbers){
     }
     return count;
 }
-
-// let finalResult = findingBadData([1, 2, 5, 5, 66, -53]);
-// console.log(finalResult);
+/* Function Discription: 
+This is a loop function . combindly use Conditional Statement.
+And this function used for finding data from an array . 
+An array can hold many values under a single name, and we can access the values by referring to an index number.
+*/
 
 
 // problem 5
@@ -78,6 +84,6 @@ function gemsToDiamond(firstFriend, secondFrind, thirdFriend){
     } 
 
 }
-
-// let finalGemsResult = gemsToDiamond(20, 200, 50);
-// console.log(finalGemsResult);
+/* Function Discription:
+This function are used to some Arrithmetic operators & Conditional Statement . 
+*/ 
