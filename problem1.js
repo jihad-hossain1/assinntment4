@@ -1,5 +1,8 @@
 // problem 1
 function mindGame(myNumber){
+    if(typeof myNumber != 'number'){
+        return 'provide a valid input'
+    }
     let sum = myNumber * 3;
     sum = sum + 10;
     sum = sum / 2;
@@ -7,5 +10,5 @@ function mindGame(myNumber){
     return sum;
 }
 
-// let finalResult = mindGame(50);
-// console.log(finalResult);
+let finalResult = mindGame('jsk');
+console.log(finalResult);

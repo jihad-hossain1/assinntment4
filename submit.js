@@ -1,5 +1,8 @@
 // problem 1
 function mindGame(myNumber){
+    if(typeof myNumber != 'number'){
+        return 'provide a valid input'
+    }
     let sum = myNumber * 3;
     sum = sum + 10;
     sum = sum / 2;
@@ -15,7 +18,9 @@ it's perform arithmetic on numbers (literals or variables).
 
 // problem 2
 function evenOdd(myString){
-
+    if(typeof myString != 'string'){
+        return 'provide a valid input'
+    }
     if(myString.length % 2 == 0){
         return 'even';
     }
@@ -33,6 +38,9 @@ If the condition is falsy, another statement in the optional else clause will be
 
 // problem  3
 function isLGSeven(myNumber){
+    if(typeof myNumber != 'number'){
+        return 'provide a valid input'
+    }
     let sum = myNumber - 7;
     if(sum < 7){
         return sum;
@@ -49,6 +57,9 @@ Use the else if statement to specify a new condition if the first condition is f
 
 // problem  4
 function findingBadData(numbers){
+    if(typeof numbers != 'number'){
+        return 'provide a valid input'
+    }
     let count = 0;
 
     for(let i = 0; i < numbers.length; i++){
